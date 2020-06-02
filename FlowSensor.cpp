@@ -56,11 +56,11 @@ float FlowSensor::getFrequency() {
   return Freq;
 }
 float FlowSensor::getFlow() {
-  if (Freq <= 25.0) {
+  if (Freq <= 20.0) {
     return 0.0;
   }
   if (Freq <= 190.0) {
-    return 15.0;
+    return ((60.0/(190.0-20.0))*Freq);
   }
   else {
     return 75.0;
