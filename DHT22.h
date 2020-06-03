@@ -13,7 +13,7 @@
 /**
  * @class DHT22 DHT22.h "DHT22.h"
  * @brief Libary for DHT22 temperature and humidity sensor.
- * @author Pham Minh Nhat
+ * @author Pham Minh Nhat and Bas De Quinze
  */
 class DHT22: public Sensor {
     public:

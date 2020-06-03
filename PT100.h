@@ -13,7 +13,7 @@
  * @class PT100 PT100.h "PT100.h"
  * @brief Libary for PT100 analog temperature sensor.
  * The value is read using 12-bit ADC ADS1015 from SparkFun.
- * @author Pham Minh Nhat
+ * @author Pham Minh Nhat and Bas De Quinze
  */
 class PT100 : public Sensor {
     public:

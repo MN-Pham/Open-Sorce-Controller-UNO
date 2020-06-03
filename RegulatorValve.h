@@ -6,6 +6,11 @@
 
 extern "C" void TIMER1_COMPA_vect(void) __attribute__((interrupt));
 
+/**
+ * @class RegulatorValve RegulatorValve.h "RegulatorValve.h"
+ * @brief A simple PWM control signal.
+ * @author Pham Minh Nhat and Bas De Quinze
+ */
 class RegulatorValve {    
   public:
     /**

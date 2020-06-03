@@ -8,7 +8,7 @@
  * @class Sensor Sensor.h "Sensor.h"
  * @brief A class to make finding the i2C address easier.
  *        Putting the result on the serial monitor.
- * @author Bas De Quinze
+ * @author Pham Minh Nhat and Bas De Quinze
  */
 class I2C_read {
     public:

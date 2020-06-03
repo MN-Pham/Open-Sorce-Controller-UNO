@@ -7,7 +7,7 @@
 /**
  * @class Room Room.h "Room.h"
  * @brief A room can have one sensor and multiple regulator valves.
- * @author Pham Minh Nhat
+ * @author Pham Minh Nhat and Bas De Quinze
  */
 class Room {
   public:

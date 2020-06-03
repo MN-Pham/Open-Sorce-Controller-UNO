@@ -11,7 +11,7 @@
 /**
  * @class ControlRoom ControlRoom.h "Room.h"
  * @brief A control room contains valves and sensors to control the heat flow going through the house
- * @author Pham Minh Nhat
+ * @author Pham Minh Nhat and Bas De Quinze
  */
 class ControlRoom {
   public:

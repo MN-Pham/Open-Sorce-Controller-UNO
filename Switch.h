@@ -6,7 +6,7 @@
 /**
  * @class Switch Switch.h "Switch.h"
  * @brief A simple on/off switch.
- * @author Pham Minh Nhat
+ * @author Pham Minh Nhat and Bas De Quinze
  */
 class Switch {
   public:
