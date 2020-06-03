@@ -17,10 +17,12 @@ PT100::PT100 (ADS1015 &adc, const int channel, const int ID)
  * @todo Calculate temperature from the resistance of PT100.
  */ 
 int PT100::Measure() {
+    float voltage;
     if (!ADC_.isConnected()) {
         return CONNECT_ERR;
     }
-    Temperature_ = ADC_.getSingleEnded(channel_);
+    voltage = ADC_.getSingleEnded(channel_);
+	Temperature_ = (voltage-1.98)/0.007623;
     return NO_ERR;
 }
 
